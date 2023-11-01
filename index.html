@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Dzub</title> <!-- Tambahkan tag title di sini -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add this line for the favicon -->
+
+    <!-- Include Tailwind CSS via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css">
+    <!-- Include Font Awesome via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <style>
+        /* Gaya untuk teks */
+        .custom-text {
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        /* Gaya umum untuk ikon */
+        .custom-icon {
+            font-size: 2rem; /* Mengurangi ukuran ikon secara umum */
+        }
+
+        /* Gaya khusus untuk ikon "fa-user-circle" */
+        .user-circle-icon {
+            font-size: 4rem; /* Ukuran ikon "fa-user-circle" tetap besar */
+        }
+
+        /* Animasi untuk ikon */
+        .animated-icon {
+            animation: bounce 1s infinite;
+        }
+
+        /* Gaya untuk mode gelap */
+        .dark-mode {
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+    </style>
+</head>
+<body class="h-screen flex items-center justify-center bg-gray-800 dark-mode">
+    <!-- Toggle Mode (Dark/Light) Button 
+    <div class="fixed top-0 right-0 m-4">
+        <button id="mode-toggle" class="mode-toggle">
+            Dark Mode
+        </button>
+    </div> -->
+
+    <!-- Use Tailwind utility classes to style the elements -->
+
+    <div class="p-6 flex flex-col items-center lg:w-1/2 xl:w-1/3 mx-auto">
+        <i class="fas fa-user-circle user-circle-icon custom-icon animated-icon text-gray-100"></i>
+        <div class="text-gray-100 text-center mt-4">
+            <p class="text-4xl font-bold custom-text animated-icon">Hello, I'm Dzub!</p>
+            <p class="lg:text-xl custom-text animated-icon">Technical Support Specialist | Linux System Administrator</p>
+        </div>
+        <div class="flex flex-wrap justify-center space-x-4 mt-4">
+            <a href="mailto:dzub@example.com"><i class="fas fa-envelope custom-icon animated-icon text-gray-100"></i></a>
+            <a href="https://www.linkedin.com/in/dzub"><i class="fab fa-linkedin custom-icon animated-icon text-gray-100"></i></a>
+            <a href="https://github.com/dzub"><i class="fab fa-github custom-icon animated-icon text-gray-100"></i></a>
+            <a href="https://t.me/YourTelegramID"><i class="fab fa-telegram custom-icon animated-icon text-gray-100"></i></a>
+            <a href="https://your-blog-url.com"><i class="fas fa-blog custom-icon animated-icon text-gray-100"></i></a>
+            <a href="https://github.com/dzub"><i class="fab fa-github custom-icon animated-icon text-gray-100"></i></a>
+            <!-- Add the resume link with the icon -->
+            <a href="https://example.com/your-resume.pdf" target="_blank"><i class="fas fa-file-pdf custom-icon animated-icon text-gray-100"></i></a>
+        </div>
+    </div>
+<!--
+    <script>
+        // Fungsi untuk mengaktifkan/dinonaktifkan mode gelap
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode'); // Tambahkan atau hapus kelas 'dark-mode'
+        }
+
+        // Mengganti teks tombol mode tergantung pada mode saat ini
+        const modeToggle = document.getElementById('mode-toggle');
+        modeToggle.addEventListener('click', function() {
+            toggleDarkMode();
+            if (modeToggle.innerText === 'Dark Mode') {
+                modeToggle.innerText = 'Light Mode';
+            } else {
+                modeToggle.innerText = 'Dark Mode';
+            }
+        });
+    </script>
+    -->
+</body>
+</html>
