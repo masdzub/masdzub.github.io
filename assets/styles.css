@@ -1,0 +1,26 @@
+/* Gaya untuk teks */
+.custom-text {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Gaya umum untuk ikon */
+.custom-icon {
+    font-size: 2rem; /* Mengurangi ukuran ikon secara umum */
+}
+
+/* Gaya khusus untuk ikon "fa-user-circle" */
+.user-circle-icon {
+    font-size: 4rem; /* Ukuran ikon "fa-user-circle" tetap besar */
+}
+
+/* Animasi untuk ikon */
+.animated-icon {
+    animation: bounce 1s infinite;
+}
+
+/* Gaya untuk mode gelap */
+.dark-mode {
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
