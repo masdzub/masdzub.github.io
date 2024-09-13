@@ -1,26 +1,26 @@
-/* Gaya untuk teks */
+/* Style for text */
 .custom-text {
     font-family: 'Arial', sans-serif;
     letter-spacing: 1px;
 }
 
-/* Gaya umum untuk ikon */
+/* General style for icons */
 .custom-icon {
-    font-size: 2rem; /* Mengurangi ukuran ikon secara umum */
+    font-size: 2rem; /* Reduces the size of icons in general */
 }
 
-/* Gaya khusus untuk ikon "fa-user-circle" */
+/* Special style for the "fa-user-circle" icon */
 .user-circle-icon {
-    font-size: 4rem; /* Ukuran ikon "fa-user-circle" tetap besar */
+    font-size: 4rem; /* The size of the "fa-user-circle" icon remains large */
 }
 
-/* Animasi untuk ikon */
+/* Animation for icons */
 .animated-icon {
     animation: bounce 1s infinite;
 }
 
-/* Gaya untuk mode gelap */
+/* Style for dark mode */
 .dark-mode {
-    background-color: #1a202c;
-    color: #e2e8f0;
+    background-color: #1f2937;
+    color: #f9fafb;
 }

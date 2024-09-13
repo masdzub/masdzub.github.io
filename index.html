@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dzubayyan Ahmad's Personal Website</title>
-    <link rel="icon" href="./assets/masdzub.jpg" type="image/x-icon">
+    <title>Dzubayyan's Personal Website</title>
+    <link rel="icon" href="https://ucarecdn.com/bebee5f6-0ec8-444a-b528-716e1fa16369/-/scale_crop/50x50/" type="image/x-icon">
     <link rel="manifest" href="./assets/manifest.json">
 
-    <meta name="theme-color" content="#1a202c">
-
-    <!-- Meta tag untuk SEO -->
+    <!-- Meta tags for SEO -->
     <meta name="description" content="I'm Dzubayyan Ahmad, serving as a System Administrator, and this website is my personal platform.">
     <meta name="keywords" content="website, personal, sysadmin, support, technical">
     <meta name="author" content="Dzubayyan Ahmad">
 
-    <!-- Meta tag untuk sosial media (Opsional, tapi berguna jika berbagi situs di platform sosial) -->
-    <meta property="og:title" content="Dzubayyan Ahmad's Personal Website">
+    <!-- Meta tags for social media (Optional, but useful if sharing the site on social media platforms) -->
+    <meta property="og:title" content="Dzubayyan's Personal Website">
     <meta property="og:description" content="I'm Dzubayyan Ahmad, serving as a System Administrator, and this website is my personal platform.">
     <meta property="og:image" content="https://www.gravatar.com/avatar/509d3b6019d078eb39f42d51e7024abc?s=500">
     <meta property="og:url" content="https://masdzub.com/">
@@ -40,6 +38,11 @@
             });
         });
       }
+
+      // Disable right click
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+      });
     </script>
 
 </head>
@@ -48,16 +51,34 @@
   <div class="p-6 flex flex-col items-center lg:w-1/2 xl:w-1/3 mx-auto">
       <i class="fas fa-user-circle user-circle-icon custom-icon animated-icon text-gray-100"></i>
       <div class="text-gray-100 text-center mt-4">
-          <p class="text-4xl font-bold custom-text animated-icon">Hello, I'm Dzub!</p>
-          <p class="lg:text-xl custom-text animated-icon">Hosting System Administrator | Technical Writing Specialist</p>
+          <p class="text-4xl font-bold custom-text animated-icon">Hello, I'm Dzubayyan Ahmad</p>
+          <p class="lg:text-lg custom-text animated-icon">Welcome to my personal website. Let's connect!</p>
       </div>
       <div class="flex flex-wrap justify-center space-x-4 mt-4" v-if="showLinks">
-          <a href="mailto:hello@masdzub.com" target="_blank"><i class="fas fa-envelope custom-icon animated-icon text-gray-100"></i></a>
-          <a href="https://www.linkedin.com/in/masdzub" target="_blank"><i class="fab fa-linkedin custom-icon animated-icon text-gray-100"></i></a>
-          <a href="https://github.com/masdzub" target="_blank"><i class="fab fa-github custom-icon animated-icon text-gray-100"></i></a>
-          <a href="https://t.me/masdzub" target="_blank"><i class="fab fa-telegram custom-icon animated-icon text-gray-100"></i></a>
-          <a href="https://article.masdzub.com" target="_blank"><i class="fas fa-blog custom-icon animated-icon text-gray-100"></i></a>
-          <a href="https://resume.masdzub.com" target="_blank"><i class="fas fa-file-pdf custom-icon animated-icon text-gray-100"></i></a>
+          <a href="mailto:hello@masdzub.com" target="_blank" class="flex flex-col items-center">
+              <i class="fas fa-envelope custom-icon animated-icon text-gray-100"></i>
+              <span class="text-gray-100 text-sm animated-icon">Email</span>
+          </a>
+          <a href="https://t.me/masdzub" target="_blank" class="flex flex-col items-center">
+            <i class="fab fa-telegram custom-icon animated-icon text-gray-100"></i>
+            <span class="text-gray-100 text-sm animated-icon">Telegram</span>
+          </a>
+          <a href="https://www.linkedin.com/in/masdzub" target="_blank" class="flex flex-col items-center">
+              <i class="fab fa-linkedin custom-icon animated-icon text-gray-100"></i>
+              <span class="text-gray-100 text-sm animated-icon">LinkedIn</span>
+          </a>
+          <a href="https://github.com/masdzub" target="_blank" class="flex flex-col items-center">
+              <i class="fab fa-github custom-icon animated-icon text-gray-100"></i>
+              <span class="text-gray-100 text-sm animated-icon">GitHub</span>
+          </a>
+          <a href="https://resume.masdzub.com" target="_blank" class="flex flex-col items-center">
+              <i class="fas fa-file-pdf custom-icon animated-icon text-gray-100"></i>
+              <span class="text-gray-100 text-sm animated-icon">Resume</span>
+          </a>
+          <a href="https://article.masdzub.com" target="_blank" class="flex flex-col items-center">
+              <i class="fas fa-newspaper custom-icon animated-icon text-gray-100"></i>
+              <span class="text-gray-100 text-sm animated-icon">Article</span>
+          </a>
       </div>
   </div>
 
